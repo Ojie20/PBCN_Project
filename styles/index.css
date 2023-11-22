@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  background-color: #f6f7f6;
+}
+.left-side{
+  background-color: #272743;
+}
+
+.bg-db{
+  background-color: #272743;
+}
+.btn-db{
+  background-color: #272743;
+}
+.text-dark{
+  color: #272743;
+}
+.card{
+  width: 57%;
+}
+.light-text{
+  color: #e6e7ee;
+}
+.lightgrey-card{
+  background-color: #ebecf1;
+}
+.custom-li{
+  margin-top: 0px;
+  padding: 10px;
+}
+.custom-ul{
+  margin-left: 15px;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+.backdrop{
+  background-image: url("../images/backdrop-2.png");
+}
+
+.card-lilac{
+  background-image: url("../images/lilac-geometry.jpg");
+}
+.card-cyan{
+  background-image: url("../images/Cyan\ geometry\ .jpg");
+}
+.card-purple{
+  background-image: url("../images/Blue-purple-geometry\ .jpg");
+}
+.card-blue{
+  background-image: url("../images/Blue\ geometry.jpg");
+}
+
+.table-open{
+  background-color: #f7e8c9;
+  color: #b59d6e;
+}
+.table-approved{
+  background-color: #cff8d5;
+  color: #7eb883;
+}
+.table-denied{
+  background-color: #fcd5d4;
+  color: #c68382;
+}

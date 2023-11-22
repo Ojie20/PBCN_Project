@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
+  <title>Document</title>
+</head>
+<body>
+  <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="images/coat-of-arms.jpg" class="img-fluid rounded-circle" width="35%" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="d-flex">
+    <div class="d-none d-md-flex flex-column flex-shrink-0 p-3 text-black  bg-db sidebar position-relative fix" style="width: 280px;">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+        <div class="dropdown">
+          <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle justify-content-between" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <div>
+              <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+            Amina Musa
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </a>
+      <hr>
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link text-light" aria-current="page">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+            Menu
+          </a>
+          <ul class="custom-ul">
+            <li class="custom-li" >
+              <a class="text-decoration-none text-white" href="">
+                <i class="bi bi-speedometer2"></i>
+              Dashboard
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-light">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+            Requests
+          </a>
+          <ul class="custom-ul">
+            <li class="custom-li" >
+              <a class="text-decoration-none text-white" href="request-12.html">
+                <i class="bi bi-newspaper"></i>
+              Background Check
+              </a>
+            </li>
+            <li class="custom-li" >
+              <a class="text-decoration-none text-white" href="certificate-14.html">
+                <i class="bi bi-person-square"></i>
+              Character certificate
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-light">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+            Applications
+          </a>
+          <ul class="custom-ul">
+            <li class="custom-li" >
+              <a class="text-decoration-none text-white" href="">
+                <i class="bi bi-newspaper"></i>
+              Pending Application
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-light">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+            Account
+          </a>
+          <ul class="custom-ul">
+            <li class="custom-li" >
+              <a class="text-decoration-none text-white" href="profile-16.html">
+                <i class="bi bi-person"></i>
+              Profile
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+    </div>
+
+    
+      <div class="d-flex flex-column">
+        <div class="container">
+          <h4>Dashboard</h4>
+      
+        <div class="container">
+          <div class="row shadow">
+            <div class="col-1"><div class=""><i class="bi bi-exclamation-circle-fill"></i></div></div>
+            <div class="col-11">
+              <div>
+                <p class="h5">Application received</p>
+                <p>Your application will be reviewed and you would get a response</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row mt-3">
+            <div class="col-md-3">
+              <div class="card p-3 w-100 card-blue text-white border-0">
+                <p>Number of checks done</p>
+                <p class="h4">2</p>
+                <p>This year</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card p-3 w-100 card-cyan text-white border-0">
+                <p>Number of clearance received</p>
+                <p class="h4">12</p>
+                <p>This year</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card p-3 w-100 card-purple text-white border-0">
+                <p>Last check done</p>
+                <p class="h4">2</p>
+                <p>This year</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card p-3 w-100 card-lilac text-white border-0">
+                <p>Number of checks done</p>
+                <p class="h4">2</p>
+                <p>This year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container my-3">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card w-100 p-3">
+                <div class="d-flex justify-content-between">
+                  <h6>Background Check History</h6>
+                  <p>View all<i class="bi bi-arrow-right"></i></p>
+                </div>
+                <table class="table table-borderless table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Check Number</th>
+                      <th scope="col">Application type</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>PB11011</td>
+                      <td>Premium</td>
+                      <td>22/05/2020</td>
+                      <td><span class="table-open rounded-3"><i class=" bi bi-folder"></i>Open</span></td>
+                    </tr>
+                    <tr>
+                      <td>PB11012</td>
+                      <td>Regular</td>
+                      <td>22/05/2020</td>
+                      <td><span class="table-approved rounded-3"><i class=" bi bi-check-lg"></i>Approved</span></td>
+                    </tr>
+                    <tr>
+                      <td>PB11012</td>
+                      <td>Regular</td>
+                      <td>22/05/2020</td>
+                      <td><span class="table-open rounded-3"><i class=" bi bi-folder"></i>Open</span></td>
+                    </tr>
+                    <tr>
+                      <td>PB11012</td>
+                      <td>Regular</td>
+                      <td>20/05/2020</td>
+                      <td><span class="table-denied rounded-3"><i class=" bi bi-check-lg"></i>Denied</span></td>
+                    </tr>
+                    <tr>
+                      <td>PB11012</td>
+                      <td>Regular</td>
+                      <td>22/05/2020</td>
+                      <td><span class="table-approved rounded-3"><i class=" bi bi-check-lg"></i>Approved</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card w-100 p-3">
+                <div class="d-flex justify-content-between">
+                  <h6>Clearance Certificate History</h6>
+                  <p>View all<i class="bi bi-arrow-right"></i></p>
+                </div>
+                <table class="table table-borderless table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Clearance Number</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">Status</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>CL11011</td>
+                      <td>22/05/2020</td>
+                      <td><span class="table-open rounded-3"><i class=" bi bi-folder"></i>Open</span></td>
+                      <td><button class="btn h-24 fs-6 border-1 border-1"><i class="bi bi-download"></i>Download</button></td>
+                    </tr>
+                    <tr>
+                      <td>CL11012</td>
+                      <td>22/05/2020</td>
+                      <td><span class="table-approved rounded-3"><i class=" bi bi-check-lg"></i>Approved</span></td>
+                      <td><button class="btn h-24 fs-6 border-1 border-1"><i class="bi bi-download"></i>Download</button></td>
+                    </tr>
+                    <tr>
+                      <td>CL11012</td>
+                      <td>22/05/2020</td>
+                      <td><span class="table-approved rounded-3"><i class=" bi bi-check-lg"></i>Approved</span></td>
+                      <td><button class="btn h-24 fs-6 border-1 border-1"><i class="bi bi-download"></i>Download</button></td>
+                    </tr>
+                    <tr>
+                      <td>CL11012</td>
+                      <td>20/05/2020</td>
+                      <td><span class="table-approved rounded-3"><i class=" bi bi-check-lg"></i>Approved</span></td>
+                      <td><button class="btn h-24 fs-6 border-1 border-1"><i class="bi bi-download"></i>Download</button></td>
+                    </tr>
+                    <tr>
+                      <td>CL11012</td>
+                      <td>22/05/2020</td>
+                      <td><span class="table-approved rounded-3"><i class=" bi bi-check-lg"></i>Approved</span></td>
+                      <td><button class="btn h-24 fs-6 border-1 border-1"><i class="bi bi-download"></i>Download</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+        <footer class="p-2 w-100 bg-white text-start position-relative" >
+          <div class="container">
+              <p>&copy;Copyright The Nigerian Police 2020</p>
+          </div>
+      </footer>
+
+
+
+      </div>
+    </main>
+  
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
