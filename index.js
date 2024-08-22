@@ -24,14 +24,14 @@ index2 =`
             </p>
           </div>
         </div>
-`
+`;
 let account3='';
 account3=`
-<div class="card-body p-3">
+<div class="card-body p-2">
 <div class="row">
   <img src="images/Progress-bar-1.jpg" alt="" class="w-50 mx-auto">
 </div>
-<div class="text-center m-2">
+<div class="text-center m-1">
   <p class="h4">Choose account type</p>
   <p>Please select your preferred account type below</p>
 </div>
@@ -95,6 +95,7 @@ account3=`
 </div>
 `
 
+// inside Index 2 section
 document.querySelector('.index-button').addEventListener('click', ()=>{
   document.querySelector('.card-body-js').innerHTML=account3
 })
